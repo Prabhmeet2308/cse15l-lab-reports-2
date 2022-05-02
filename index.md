@@ -1,16 +1,25 @@
+public static int multiply(int n, int m){
+  return n*m
+}
+
+
 import static org.junit.Assert.*;
 import org.junit.*;
 
 public class SkillDemoTest{
   @Test
-  public void multiplication(){
+  public void multiply(){
     assertEquals(4,SkillDemo.multiply(4*2));
   }
 }
+download files add in lib folder 
+commit
+push
+
 
 ssh cs15lsp22aui@ieng6.ucsd.edu
 
-git clone link
+git clone https://github.com/Prabhmeet2308/skill-demo.git
 ls
 
 cd skill-demo
